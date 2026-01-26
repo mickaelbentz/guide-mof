@@ -1,0 +1,29 @@
+mof-guide/
+│
+├── public/                     # Site web statique (à déployer)
+│   ├── index.html             # Page principale
+│   ├── css/
+│   │   └── style.css          # Styles (design bleu-blanc-rouge)
+│   └── js/
+│       └── app.js             # Application JavaScript
+│
+├── data/                      # Données JSON
+│   └── mof-data.json          # Base de données MOF
+│
+├── scraper/                   # Script de scraping Python
+│   ├── scrape_mof.py          # Script principal
+│   └── requirements.txt       # Dépendances Python
+│
+├── README.md                  # Documentation complète
+├── QUICKSTART.md              # Guide de démarrage rapide
+├── CONTRIBUTING.md            # Guide de contribution
+├── LICENSE                    # Licence MIT
+│
+├── .gitignore                 # Fichiers à ignorer par Git
+├── package.json               # Métadonnées du projet
+├── netlify.toml               # Configuration Netlify
+├── vercel.json                # Configuration Vercel
+│
+└── STRUCTURE.txt              # Ce fichier
+
+TOTAL: 14 fichiers

@@ -1,0 +1,28 @@
+{
+  "name": "mof-guide",
+  "version": "1.0.0",
+  "description": "Trouvez les Meilleurs Ouvriers de France près de chez vous",
+  "author": "Votre Nom",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/votre-username/mof-guide.git"
+  },
+  "keywords": [
+    "mof",
+    "meilleurs-ouvriers-de-france",
+    "artisan",
+    "gastronomie",
+    "france",
+    "carte",
+    "localisation"
+  ],
+  "scripts": {
+    "start": "python3 -m http.server 8000 --directory public",
+    "serve": "python3 -m http.server 8000 --directory public",
+    "scrape": "cd scraper && python3 scrape_mof.py",
+    "update-data": "cd scraper && python3 scrape_mof.py"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

@@ -1,0 +1,362 @@
+{
+  "meta": {
+    "total": 39,
+    "generated_at": "2026-01-25",
+    "source": "Recherche manuelle sur internet",
+    "method": "manual",
+    "note": "Commerces et métiers de bouche MOF avec adresses vérifiées. Categories: Boulangerie, Pâtisserie, Chocolaterie, Fromagerie, Boucherie, Charcuterie, Glacerie, Poissonnerie."
+  },
+  "mof": [
+    {
+      "id": 1,
+      "name": "Laurent Dubois",
+      "specialty": "Fromager",
+      "year": 2000,
+      "address": "47 ter boulevard Saint-Germain, 75005 Paris",
+      "website": "https://fromageslaurentdubois.fr",
+      "coordinates": { "lat": 48.8502, "lon": 2.3471 }
+    },
+    {
+      "id": 2,
+      "name": "Laurent Dubois",
+      "specialty": "Fromager",
+      "year": 2000,
+      "address": "97-99 rue Saint-Antoine, 75004 Paris",
+      "website": "https://fromageslaurentdubois.fr",
+      "coordinates": { "lat": 48.8547, "lon": 2.3617 }
+    },
+    {
+      "id": 3,
+      "name": "Laurent Dubois",
+      "specialty": "Fromager",
+      "year": 2000,
+      "address": "2 rue de Lourmel, 75015 Paris",
+      "website": "https://fromageslaurentdubois.fr",
+      "coordinates": { "lat": 48.8494, "lon": 2.2887 }
+    },
+    {
+      "id": 4,
+      "name": "Marie Quatrehomme",
+      "specialty": "Fromager",
+      "year": 2000,
+      "address": "62 rue de Sèvres, 75007 Paris",
+      "website": "https://quatrehomme.fr",
+      "coordinates": { "lat": 48.8480, "lon": 2.3196 }
+    },
+    {
+      "id": 5,
+      "name": "Marie Quatrehomme",
+      "specialty": "Fromager",
+      "year": 2000,
+      "address": "9 rue du Poteau, 75018 Paris",
+      "website": "https://quatrehomme.fr",
+      "coordinates": { "lat": 48.8929, "lon": 2.3432 }
+    },
+    {
+      "id": 6,
+      "name": "Patrick Roger",
+      "specialty": "Chocolatier",
+      "year": 2000,
+      "address": "108 boulevard Saint-Germain, 75006 Paris",
+      "website": "https://www.patrickroger.com",
+      "coordinates": { "lat": 48.8527, "lon": 2.3380 }
+    },
+    {
+      "id": 7,
+      "name": "Patrick Roger",
+      "specialty": "Chocolatier",
+      "year": 2000,
+      "address": "91 rue de Rennes, 75006 Paris",
+      "website": "https://www.patrickroger.com",
+      "coordinates": { "lat": 48.8486, "lon": 2.3284 }
+    },
+    {
+      "id": 8,
+      "name": "Arnaud Larher",
+      "specialty": "Pâtissier-Chocolatier",
+      "year": 2007,
+      "address": "53 rue Caulaincourt, 75018 Paris",
+      "website": "https://arnaudlarher.com",
+      "coordinates": { "lat": 48.8880, "lon": 2.3355 }
+    },
+    {
+      "id": 9,
+      "name": "Arnaud Larher",
+      "specialty": "Pâtissier-Chocolatier",
+      "year": 2007,
+      "address": "57 rue Damrémont, 75018 Paris",
+      "website": "https://arnaudlarher.com",
+      "coordinates": { "lat": 48.8906, "lon": 2.3380 }
+    },
+    {
+      "id": 10,
+      "name": "Arnaud Larher",
+      "specialty": "Pâtissier-Chocolatier",
+      "year": 2007,
+      "address": "93 rue de Seine, 75006 Paris",
+      "website": "https://arnaudlarher.com",
+      "coordinates": { "lat": 48.8520, "lon": 2.3371 }
+    },
+    {
+      "id": 11,
+      "name": "Jean-Paul Hévin",
+      "specialty": "Pâtissier-Chocolatier",
+      "year": 1986,
+      "address": "231 rue Saint-Honoré, 75001 Paris",
+      "website": "https://www.jeanpaulhevin.com",
+      "coordinates": { "lat": 48.8660, "lon": 2.3290 }
+    },
+    {
+      "id": 12,
+      "name": "Jean-Paul Hévin",
+      "specialty": "Pâtissier-Chocolatier",
+      "year": 1986,
+      "address": "3 rue Vavin, 75006 Paris",
+      "website": "https://www.jeanpaulhevin.com",
+      "coordinates": { "lat": 48.8450, "lon": 2.3310 }
+    },
+    {
+      "id": 13,
+      "name": "Jean-Paul Hévin",
+      "specialty": "Pâtissier-Chocolatier",
+      "year": 1986,
+      "address": "41 rue de Bretagne, 75003 Paris",
+      "website": "https://www.jeanpaulhevin.com",
+      "coordinates": { "lat": 48.8643, "lon": 2.3627 }
+    },
+    {
+      "id": 14,
+      "name": "Arnaud Nicolas",
+      "specialty": "Charcutier",
+      "year": 2004,
+      "address": "46 avenue de la Bourdonnais, 75007 Paris",
+      "website": "https://www.arnaudnicolas.paris",
+      "coordinates": { "lat": 48.8569, "lon": 2.3010 }
+    },
+    {
+      "id": 15,
+      "name": "Arnaud Nicolas",
+      "specialty": "Charcutier",
+      "year": 2004,
+      "address": "125 rue Caulaincourt, 75018 Paris",
+      "website": "https://www.arnaudnicolas.paris",
+      "coordinates": { "lat": 48.8906, "lon": 2.3340 }
+    },
+    {
+      "id": 16,
+      "name": "Pascal Joly",
+      "specialty": "Charcutier-Traiteur",
+      "year": 2000,
+      "address": "89 rue Cambronne, 75015 Paris",
+      "website": "https://www.charcuterie-joly.fr",
+      "coordinates": { "lat": 48.8431, "lon": 2.3027 }
+    },
+    {
+      "id": 17,
+      "name": "Pascal Joly",
+      "specialty": "Charcutier-Traiteur",
+      "year": 2000,
+      "address": "29 rue du Docteur Blanche, 75016 Paris",
+      "website": "https://www.charcuterie-joly.fr",
+      "coordinates": { "lat": 48.8548, "lon": 2.2661 }
+    },
+    {
+      "id": 18,
+      "name": "Romain Leboeuf",
+      "specialty": "Boucher",
+      "year": 2015,
+      "address": "37 avenue Félix Faure, 75015 Paris",
+      "website": "https://romainleboeuf.com",
+      "coordinates": { "lat": 48.8414, "lon": 2.2889 }
+    },
+    {
+      "id": 19,
+      "name": "Gérard Taurin",
+      "specialty": "Glacier",
+      "year": 2000,
+      "address": "27 rue de Lévis, 75017 Paris",
+      "website": "https://gtdesignerglacier.com",
+      "coordinates": { "lat": 48.8832, "lon": 2.3116 }
+    },
+    {
+      "id": 20,
+      "name": "Gérard Taurin",
+      "specialty": "Glacier",
+      "year": 2000,
+      "address": "48 rue des Martyrs, 75009 Paris",
+      "website": "https://gtdesignerglacier.com",
+      "coordinates": { "lat": 48.8798, "lon": 2.3396 }
+    },
+    {
+      "id": 21,
+      "name": "Nicolas Bernardé",
+      "specialty": "Pâtissier-Confiseur",
+      "year": 2005,
+      "address": "2 place de la Liberté, 92250 La Garenne-Colombes",
+      "website": "https://nicolas-bernarde.com",
+      "coordinates": { "lat": 48.9058, "lon": 2.2411 }
+    },
+    {
+      "id": 22,
+      "name": "Fabrice Gillotte",
+      "specialty": "Chocolatier",
+      "year": 1990,
+      "address": "21 rue du Bourg, 21000 Dijon",
+      "website": "https://fabricegillotte.com",
+      "coordinates": { "lat": 47.3220, "lon": 5.0415 }
+    },
+    {
+      "id": 23,
+      "name": "Jacques Génin",
+      "specialty": "Chocolatier-Pâtissier",
+      "year": null,
+      "address": "133 rue de Turenne, 75003 Paris",
+      "website": "https://jacquesgenin.fr",
+      "coordinates": { "lat": 48.8641, "lon": 2.3646 }
+    },
+    {
+      "id": 24,
+      "name": "Dominique Bouchait",
+      "specialty": "Fromager",
+      "year": 2011,
+      "address": "Bar à Fromages, Saint-Gaudens, 31800",
+      "website": "https://www.fromage-napoleon.com",
+      "coordinates": { "lat": 43.1077, "lon": 0.7234 }
+    },
+    {
+      "id": 25,
+      "name": "Xavier Thuret",
+      "specialty": "Fromager",
+      "year": null,
+      "address": "6 place Victor Hugo, 31000 Toulouse",
+      "website": "https://xavier.fr",
+      "coordinates": { "lat": 43.6045, "lon": 1.4478 }
+    },
+    {
+      "id": 26,
+      "name": "Stéphane Millour",
+      "specialty": "Boucher",
+      "year": 2022,
+      "address": "97 avenue de la France Libre, 29000 Quimper",
+      "website": "https://boucherie-millour.fr",
+      "coordinates": { "lat": 47.9960, "lon": -4.1024 }
+    },
+    {
+      "id": 27,
+      "name": "Julien Denjean",
+      "specialty": "Charcutier-Traiteur",
+      "year": 2015,
+      "address": "15 rue de Chambéry, 73100 Aix-les-Bains",
+      "website": "https://www.charcutier-traiteur-denjean.com",
+      "coordinates": { "lat": 45.6884, "lon": 5.9154 }
+    },
+    {
+      "id": 28,
+      "name": "Lecourbe Marée (Damien Lejeune)",
+      "specialty": "Poissonnier-Écailler",
+      "year": 2007,
+      "address": "Rue Lecourbe, 75015 Paris",
+      "website": null,
+      "coordinates": { "lat": 48.8411, "lon": 2.2998 }
+    },
+    {
+      "id": 29,
+      "name": "La Fine Marée (Stéphane Minot)",
+      "specialty": "Poissonnier-Écailler",
+      "year": 2007,
+      "address": "75017 Paris",
+      "website": "https://www.lafinemaree.com",
+      "coordinates": { "lat": 48.8832, "lon": 2.3116 }
+    },
+    {
+      "id": 30,
+      "name": "Vincent Durant",
+      "specialty": "Chocolatier-Confiseur",
+      "year": 2018,
+      "address": "Châtillon-sur-Chalaronne, 01400",
+      "website": "https://www.vincentdurantchocolatier.com",
+      "coordinates": { "lat": 46.1185, "lon": 4.9559 }
+    },
+    {
+      "id": 31,
+      "name": "Nicolas Cloiseau (La Maison du Chocolat)",
+      "specialty": "Chocolatier",
+      "year": 2007,
+      "address": "225 rue du Faubourg Saint-Honoré, 75008 Paris",
+      "website": "https://www.lamaisonduchocolat.com",
+      "coordinates": { "lat": 48.8772, "lon": 2.2997 }
+    },
+    {
+      "id": 32,
+      "name": "Yves Thuriès",
+      "specialty": "Pâtissier-Chocolatier-Glacier",
+      "year": 1976,
+      "address": "17 rue Alquier-Bouffard, 81100 Castres",
+      "website": "https://yvesthuries.com",
+      "coordinates": { "lat": 43.6067, "lon": 2.2398 }
+    },
+    {
+      "id": 33,
+      "name": "Frédéric Lalos",
+      "specialty": "Boulanger",
+      "year": 1997,
+      "address": "65 rue de la Garenne, 92310 Sèvres (Atelier)",
+      "website": "https://www.lalosparis.com",
+      "coordinates": { "lat": 48.8246, "lon": 2.2107 }
+    },
+    {
+      "id": 34,
+      "name": "David Alves (Astral Glace)",
+      "specialty": "Glacier",
+      "year": 2023,
+      "address": "Rue de la Monnaie, 59800 Lille",
+      "website": null,
+      "coordinates": { "lat": 50.6365, "lon": 3.0635 }
+    },
+    {
+      "id": 35,
+      "name": "Emmanuel Ryon (Une Glace à Paris)",
+      "specialty": "Glacier-Pâtissier",
+      "year": null,
+      "address": "15 rue Sainte-Croix de la Bretonnerie, 75004 Paris",
+      "website": null,
+      "coordinates": { "lat": 48.8581, "lon": 2.3563 }
+    },
+    {
+      "id": 36,
+      "name": "Bernard Mure-Ravaud (Les Alpages)",
+      "specialty": "Fromager",
+      "year": 2007,
+      "address": "4 rue de Strasbourg, 38000 Grenoble",
+      "website": "https://les-alpages.fr",
+      "coordinates": { "lat": 45.1885, "lon": 5.7245 }
+    },
+    {
+      "id": 37,
+      "name": "Hervé Mons",
+      "specialty": "Fromager",
+      "year": 2000,
+      "address": "91 allée de l'Auvergnat, 42370 Saint-Haon-le-Châtel",
+      "website": "https://www.mons-fromages.com",
+      "coordinates": { "lat": 46.0652, "lon": 3.9131 }
+    },
+    {
+      "id": 38,
+      "name": "Yvan Chevalier",
+      "specialty": "Chocolatier-Confiseur",
+      "year": 2019,
+      "address": "9 rue de Nemours, 35000 Rennes",
+      "website": "https://www.yvanchevalier.com",
+      "coordinates": { "lat": 48.1113, "lon": -1.6800 }
+    },
+    {
+      "id": 39,
+      "name": "Christophe Cressent",
+      "specialty": "Boulanger",
+      "year": null,
+      "address": "Rouen",
+      "website": "https://christophecressent.com",
+      "coordinates": { "lat": 49.4432, "lon": 1.0993 }
+    }
+  ]
+}

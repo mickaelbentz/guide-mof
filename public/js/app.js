@@ -729,7 +729,49 @@ async function init() {
     applyFilters();
     renderCurrentView();
 
+    // Générer les données structurées JSON-LD
+    injectStructuredData();
+
     console.log(`${state.mofData.length} MOF chargés`);
+}
+
+/**
+ * Injecte les données structurées Schema.org (ItemList) pour le SEO
+ */
+function injectStructuredData() {
+    const itemList = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": "Meilleurs Ouvriers de France - Métiers de bouche",
+        "numberOfItems": state.mofData.length,
+        "itemListElement": state.mofData.map((mof, index) => ({
+            "@type": "ListItem",
+            "position": index + 1,
+            "item": {
+                "@type": "LocalBusiness",
+                "name": mof.name,
+                "description": `${mof.specialty} - Meilleur Ouvrier de France${mof.year ? ' ' + mof.year : ''}`,
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": mof.address || "",
+                    "addressCountry": "FR"
+                },
+                ...(mof.coordinates && mof.coordinates.lat ? {
+                    "geo": {
+                        "@type": "GeoCoordinates",
+                        "latitude": mof.coordinates.lat,
+                        "longitude": mof.coordinates.lon
+                    }
+                } : {}),
+                ...(mof.website ? { "url": mof.website } : {})
+            }
+        }))
+    };
+
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify(itemList);
+    document.head.appendChild(script);
 }
 
 // Démarrer l'application au chargement de la page

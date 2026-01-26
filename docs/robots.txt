@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mickaelbentz.github.io/guide-mof/sitemap.xml
+Sitemap: https://guide-mof.fr/sitemap.xml

@@ -24,6 +24,14 @@
 
     <title>Guide MOF - Carte interactive des Meilleurs Ouvriers de France</title>
 
+    <!-- GoatCounter Analytics - Gratuit, hébergé en UE, sans cookies -->
+    <script data-goatcounter="https://mickaelb.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+    <!-- Google Fonts - Polices Premium -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
           integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
@@ -138,6 +146,17 @@
         </div>
     </div>
 
+    <!-- Section À Propos - Contenu textuel pour GEO -->
+    <section class="about-section">
+        <div class="container">
+            <h2 class="about-title">Découvrez les Meilleurs Ouvriers de France</h2>
+            <div class="about-content">
+                <p>Le titre de <strong>Meilleur Ouvrier de France (MOF)</strong> est la plus haute distinction artisanale décernée par l'État français depuis 1924. Ce concours prestigieux, organisé tous les trois à quatre ans, récompense l'excellence et la maîtrise technique des artisans dans plus de 200 métiers.</p>
+                <p>Notre carte interactive recense les <strong>artisans MOF des métiers de bouche</strong> : boulangers, pâtissiers, chocolatiers, fromagers, bouchers, charcutiers, glaciers et poissonniers. Reconnaissables à leur <strong>col tricolore bleu-blanc-rouge</strong>, ces artisans d'exception perpétuent un savoir-faire français unique.</p>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
@@ -153,7 +172,7 @@
         </div>
     </footer>
 
-    <!-- Schema.org JSON-LD -->
+    <!-- Schema.org JSON-LD - WebSite -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -166,6 +185,63 @@
         "@type": "SearchAction",
         "target": "https://guide-mof.fr/?q={search_term_string}",
         "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <!-- Schema.org JSON-LD - FAQPage pour GEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Qu'est-ce qu'un Meilleur Ouvrier de France (MOF) ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le titre de Meilleur Ouvrier de France (MOF) est une distinction d'État française qui récompense l'excellence artisanale. Créé en 1924, ce concours prestigieux a lieu tous les 3-4 ans. Les lauréats reçoivent une médaille et ont le droit de porter le col tricolore bleu-blanc-rouge, symbole de leur maîtrise exceptionnelle."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Comment trouver un artisan MOF près de chez moi ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Utilisez notre carte interactive pour localiser les artisans MOF des métiers de bouche dans votre région. Vous pouvez filtrer par spécialité (boulanger, pâtissier, chocolatier, fromager, boucher, charcutier, glacier, poissonnier) et par année d'obtention du titre. La géolocalisation vous permet de trouver les MOF les plus proches."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Quelles sont les spécialités MOF des métiers de bouche ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Les métiers de bouche représentés dans le concours MOF incluent : Boulanger, Pâtissier-Confiseur, Chocolatier-Confiseur, Glacier, Fromager, Boucher, Charcutier-Traiteur, et Poissonnier-Écailler. Chaque spécialité a ses propres épreuves techniques et critères d'excellence."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Combien y a-t-il de MOF en France ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Le nombre de MOF varie selon les éditions du concours. Dans les métiers de bouche, on compte plusieurs centaines d'artisans titrés répartis sur tout le territoire français. Notre annuaire recense les MOF actifs avec leurs coordonnées et spécialités."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Schema.org JSON-LD - Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Guide MOF",
+      "url": "https://guide-mof.fr",
+      "description": "Annuaire et carte interactive des Meilleurs Ouvriers de France des métiers de bouche",
+      "areaServed": {
+        "@type": "Country",
+        "name": "France"
       }
     }
     </script>

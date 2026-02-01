@@ -1,7 +1,7 @@
 {
   "meta": {
-    "total": 39,
-    "generated_at": "2026-01-25",
+    "total": 49,
+    "generated_at": "2026-02-01",
     "source": "Recherche manuelle sur internet",
     "method": "manual",
     "note": "Commerces et métiers de bouche MOF avec adresses vérifiées. Categories: Boulangerie, Pâtisserie, Chocolaterie, Fromagerie, Boucherie, Charcuterie, Glacerie, Poissonnerie."
@@ -357,6 +357,96 @@
       "address": "Rouen",
       "website": "https://christophecressent.com",
       "coordinates": { "lat": 49.4432, "lon": 1.0993 }
+    },
+    {
+      "id": 40,
+      "name": "Xavier Berger",
+      "specialty": "Chocolatier-Confiseur",
+      "year": 2023,
+      "address": "7 rue Maréchal Foch, 65000 Tarbes",
+      "website": "https://xavier-berger.com",
+      "coordinates": { "lat": 43.2327, "lon": 0.0780 }
+    },
+    {
+      "id": 41,
+      "name": "Xavier Berger",
+      "specialty": "Chocolatier-Confiseur",
+      "year": 2023,
+      "address": "3 place de la Libération, 64000 Pau",
+      "website": "https://xavier-berger.com",
+      "coordinates": { "lat": 43.2951, "lon": -0.3708 }
+    },
+    {
+      "id": 42,
+      "name": "Romain Guibert (Crèmerie Guibert)",
+      "specialty": "Fromager",
+      "year": 2023,
+      "address": "8 Square Jean Moulin, 73100 Aix-les-Bains",
+      "website": null,
+      "coordinates": { "lat": 45.6884, "lon": 5.9154 }
+    },
+    {
+      "id": 43,
+      "name": "Stéphanie Hein",
+      "specialty": "Boucher",
+      "year": 2023,
+      "address": "Montlouis-sur-Loire, 37270",
+      "website": null,
+      "coordinates": { "lat": 47.3897, "lon": 0.8308 }
+    },
+    {
+      "id": 44,
+      "name": "Gwenaël Laville (Poissonnerie Laville)",
+      "specialty": "Poissonnier-Écailler",
+      "year": 2023,
+      "address": "Bouniagues, 24560",
+      "website": null,
+      "coordinates": { "lat": 44.7833, "lon": 0.5167 }
+    },
+    {
+      "id": 45,
+      "name": "Eulalie Rus (Chez Eulalie Poissonnerie)",
+      "specialty": "Poissonnier-Écailler",
+      "year": 2023,
+      "address": "L'Isle-sur-la-Sorgue, 84800",
+      "website": null,
+      "coordinates": { "lat": 43.9200, "lon": 5.0550 }
+    },
+    {
+      "id": 46,
+      "name": "Fawze Sannier (L'Hippocampe)",
+      "specialty": "Poissonnier-Écailler",
+      "year": 2023,
+      "address": "Chantilly, 60500",
+      "website": null,
+      "coordinates": { "lat": 49.1947, "lon": 2.4710 }
+    },
+    {
+      "id": 47,
+      "name": "Fawze Sannier (L'Hippocampe)",
+      "specialty": "Poissonnier-Écailler",
+      "year": 2023,
+      "address": "Senlis, 60300",
+      "website": null,
+      "coordinates": { "lat": 49.2067, "lon": 2.5850 }
+    },
+    {
+      "id": 48,
+      "name": "Sonia Bichet",
+      "specialty": "Poissonnier-Écailler",
+      "year": 2023,
+      "address": "France",
+      "website": null,
+      "coordinates": { "lat": 46.6034, "lon": 1.8883 }
+    },
+    {
+      "id": 49,
+      "name": "Pierre-Henri Roullard (Pâtisserie Hawecker)",
+      "specialty": "Pâtissier-Confiseur",
+      "year": 2023,
+      "address": "Châteaurenard, 13160",
+      "website": null,
+      "coordinates": { "lat": 43.8817, "lon": 4.8553 }
     }
   ]
 }
